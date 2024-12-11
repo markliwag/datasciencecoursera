@@ -21,8 +21,8 @@ Edit the following items in `config.py` to set the parameters for rolling averag
    - `json_files_to_read`: List of paths to JSON files to read, e.g., `['./output/xt/ranked_average_liquidity.json', './output/xt/time_weighted_liquidity.json']`.
 
 
-## How to Achieve the above: 
-    (1)  **Edit the items in config.py above first for rolling average calculation.** 
+### How to Achieve the above: 
+    (1)  Edit the items in config.py above first for rolling average calculation.
     (2) Run `python print_tob.py little/(.gz file)`. Replace the text in parenthesis with the name of the gz file. The code will (1) save the result in output folder for each of the above and (2) print in the command line the values per instrument of the three goals above except rolling average due to its large size. 
 
 ### How to Read the Json file output for each of the goal above: 
